@@ -1,0 +1,27 @@
+# Live webcam preview + record + CSVs
+python run_holistic.py --webcam 0 --show --record --csv
+
+# Process a file
+python run_holistic.py --video "inputs/one.mp4" --show --record --csv
+
+# Multi-person from file
+python run_pose_multi.py --video "inputs/one.mp4" --show --record --csv --max_poses 5 --max_width 960
+
+# Live webcam
+python run_pose_multi.py --webcam 0 --show --record --csv --max_poses 5 --max_width 960
+Notes
+
+
+
+
+python run_pose_multi.py --video "inputs/one.mp4" --show --record --csv --max_poses 5 --max_width 960
+
+AAARRRRMMMM
+
+
+python finger_ability_live.py
+
+
+python arm_ability_live.py --side auto --selfie on --labelby screen
+
+
